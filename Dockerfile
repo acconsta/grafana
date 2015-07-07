@@ -17,4 +17,4 @@ RUN cd $GOPATH/src/github.com/grafana/grafana && \
     npm install -g grunt-cli && \
     grunt
 
-CMD ./grafana
+CMD grafana -homepath="/gopath/src/github.com/grafana/grafana"
